@@ -89,13 +89,13 @@ make sure that ``Node.js`` and ``npm`` are both installed on your device.
 1. Clone the project:
 
 ```
-$ git clone https://github.com/
+$ git clone https://github.com/Meinke7/mnkFood-front-end
 ```
 
 2. Access project folder
 
 ```
-$ cd tananana
+$ cd mnkFood-front-end
 ```
 
 3. Install the Dependencies
@@ -111,7 +111,7 @@ $ npm run dev
 ```
 
 
-Este projeto está sob a licença MIT.
+This project is under MIT license.
 
 ---
 
