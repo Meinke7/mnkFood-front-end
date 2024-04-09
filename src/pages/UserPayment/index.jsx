@@ -157,7 +157,7 @@ export function UserPayment() {
 
                                 return(
                                     <li key={String(index)}>
-                                        <img src={`${api.defaults.baseURL}/files/${item.imagem}`} alt="imagem do prato" />
+                                        <img src={`${api.defaults.baseURL}/files/${item.image}`} alt="imagem do prato" />
                                         <div>
                                             <div id="wrapper_text_and_price">
                                                 <p>{item.amount + "X"} {item.title}</p>
@@ -224,6 +224,8 @@ export function UserPayment() {
 
                         <div className={pix === false ? 'pix' : 'hidden'}>
                             <img src={qrCode} alt="QRCODE" />
+                            <br/>
+                           
                         </div>
 
                         <div className={`wrapper_form ${pix === true ? "" : "hidden"}`}>
@@ -269,6 +271,7 @@ export function UserPayment() {
                             <img className={(transitionImg <= 29 && transitionImg > 0) ? '' : 'hidden'} src={paymentSuccessful} alt="payment Approved" />
                             <img className={transitionImg === 0 ? '' : 'hidden'} src={orderDeliveredImg} alt="payment Approved" />
                         </div>
+                       
                     </div>
 
                 </div>

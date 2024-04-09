@@ -1,8 +1,8 @@
-import React from 'react';
-import Carousel from 'react-multi-carousel';
+import React from "react";
+import Carousel from "react-multi-carousel";
 
-import 'react-multi-carousel/lib/styles.css'
-import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
+import "react-multi-carousel/lib/styles.css";
+import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 import { Container } from "./styles";
 
 export function CarouselNav({ children }) {
@@ -11,15 +11,15 @@ export function CarouselNav({ children }) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1301 },
-      items: 4,
+      items: 3.4,
     },
     desktop: {
-      breakpoint: { max: 1300, min: 1025 },
+      breakpoint: { max: 1400, min: 1025 },
       items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 769 },
-      items: 2.5,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 768, min: 0 },
@@ -27,49 +27,65 @@ export function CarouselNav({ children }) {
     },
   };
   const CustomButtonGroup = ({ next, previous }) => {
-    
     return (
       <div className="custom-button-group">
         <div className="wrapper_button back">
-          <button  onClick={previous}><MdArrowBackIosNew /></button>
+          <button onClick={previous}>
+            <MdArrowBackIosNew />
+          </button>
         </div>
         <div className="wrapper_button forward">
-          <button onClick={next}><MdArrowForwardIos /></button>
+          <button onClick={next}>
+            <MdArrowForwardIos />
+          </button>
         </div>
       </div>
     );
-    
   };
 
   return (
     <Container>
-    <div className='wrapper_plates' id={`${children.length < 4 ? 'addMargin' : ''}`}>
-
-      <div className='wrapper_button back'>
-        <button onClick={() => carouselRef.previous()}><MdArrowBackIosNew /></button>
-      </div>
-
-      <Carousel
-        responsive={responsive}
-        swipeable
-        draggable
-        customButtonGroup={<CustomButtonGroup />}
-        containerClass="carousel-container"
-        itemClass="carousel-item"
-        removeArrowOnDeviceType={["tablet", "mobile","superLargeDesktop", "desktop"]}
-        dotListClass="custom-dot-list-style"
-        ref={ref => (carouselRef = ref)}
-        ssr 
-        keyBoardControl 
+      <div
+        className="wrapper_plates"
+        id={`${children.length < 4 ? "addMargin" : ""}`}
       >
-        {children}
-      </Carousel>
+        <Carousel
+          responsive={responsive}
+          centerMode={true}
+          draggable
+          transitionDuration={700}
+          customButtonGroup={
+            <CustomButtonGroup
+              previous={() => carouselRef.previous()}
+              next={() => carouselRef.next()}
+            />
+          }
+          containerClass="carousel-container"
+          itemClass="carousel-item"
+          removeArrowOnDeviceType={[
+            "tablet",
+            "mobile",
+            "superLargeDesktop",
+            "desktop",
+          ]}
+          dotListClass="custom-dot-list-style"
+          ref={(ref) => (carouselRef = ref)}
+          keyBoardControl
+        >
+          {children}
+        </Carousel>
+        <div className="wrapper_button back">
+          <button onClick={() => carouselRef.previous()}>
+            <MdArrowBackIosNew />
+          </button>
+        </div>
 
-      <div className='wrapper_button forward'>
-        <button onClick={() => carouselRef.next()}><MdArrowForwardIos /></button>
+        <div className="wrapper_button forward">
+          <button onClick={() => carouselRef.next()}>
+            <MdArrowForwardIos />
+          </button>
+        </div>
       </div>
-
-    </div>
-  </Container>
-)
+    </Container>
+  );
 }

@@ -102,8 +102,8 @@ export function AdmOrders() {
                         <tr>
                             <th>Status</th>
                             <th>Código</th>
-                            <th>Detalhamento</th>
-                            <th>Data e hora</th>
+                            <th>Detalhes do Pedido</th>
+                            <th>Data</th>
                         </tr>
                     </thead>
 

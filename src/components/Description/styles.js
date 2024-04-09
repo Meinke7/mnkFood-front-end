@@ -5,7 +5,8 @@ export const Container = styled.div`
     grid-area: Description;
     position: relative;
     display: flex;
-
+    width: 100%;
+    
     height: 260px;
     margin: 300px 125px 0;
     background-color: ${({theme})=>theme.COLORS.BACKGROUND_100};
@@ -22,13 +23,16 @@ export const Container = styled.div`
         top: 100px;
 
         h1{
+            margin-right: 250px;
             font-weight: 600;
             font-size: 50px;
+            
         }
         p{
-            Line-height: 16.8px;
+            line-height: 16.8px;
             font-weight: 400;
             font-size: 16px;
+            
         }
     }
 
@@ -38,9 +42,11 @@ export const Container = styled.div`
 
         .wrapper_description{
             z-index: 1;
+            
 
             h1{
                 font-size: 40px;
+                
             }
         }
     }

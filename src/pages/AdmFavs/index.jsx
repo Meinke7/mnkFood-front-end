@@ -22,7 +22,7 @@ export function AdmFavs() {
             if(error.response){
                 alert(error.response.data.message);
             }else{
-                alert('MAS GENTE???.');
+                alert('Erro.');
             }
         };
     });
@@ -31,7 +31,7 @@ export function AdmFavs() {
         <Container>
             <AdmHeader />
             
-            <h1>Todos os pratos</h1>
+            <h1>Preferidos dos Clientes</h1>
 
             <section>
                 <ul>

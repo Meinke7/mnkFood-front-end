@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 0 120px;
-  
+  padding: 0 100px;
+
+  cursor: grab;
 
   #hidden {
     display: none;
@@ -11,7 +11,6 @@ export const Container = styled.section`
 
   .wrapper_plates {
     position: relative;
-    
 
     .wrapper_button {
       display: flex;
@@ -21,16 +20,24 @@ export const Container = styled.section`
       position: absolute;
       top: 0;
       height: 100%;
-      width: 150px; /* Largura dos botões de navegação */
+      width: 30px; /* Largura dos botões de navegação */
     }
 
     .back {
-      background: linear-gradient(90deg, #000A0F 0%, rgba(0, 10, 15, 0.472541) 100%);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 10, 15, 0.472541) 0%,
+        #000a0f 100%
+      );
       left: 0;
     }
 
     .forward {
-      background: linear-gradient(90deg, rgba(0, 10, 15, 0.472541) 0%, #000A0F 100%);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 10, 15, 0.472541) 0%,
+        #000a0f 100%
+      );
       right: 0;
     }
 
@@ -47,9 +54,7 @@ export const Container = styled.section`
         color: ${({ theme }) => theme.COLORS.WHITE_900};
       }
     }
-}
-
-  
+  }
 
   @media (max-width: 832px) {
     #addMargin {
@@ -58,8 +63,9 @@ export const Container = styled.section`
   }
 
   @media (max-width: 1300px) {
-    .back, .forward {
-      width: 50px ; /* Largura dos botões de navegação em telas menores */
+    .back,
+    .forward {
+      width: -5px; /* Largura dos botões de navegação em telas menores */
     }
   }
 `;

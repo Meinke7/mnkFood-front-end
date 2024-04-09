@@ -29,6 +29,7 @@ export const Container = styled.div`
         ul li img{
             width: 100px;
             height: 100px;
+            border-radius: 50%;
         }
 
         ul li .wrapper_title_like{

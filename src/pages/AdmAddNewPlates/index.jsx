@@ -47,7 +47,7 @@ export function AdmAddNewPlates() {
     async function createPlate(e){
         if(!image || !title || !category || !ingredients || !description){
             e.preventDefault();
-            alert("CAMPO VAZIOOO!")
+            alert("Campo vazio")
         }else{
 
             console.log('Dados do prato:', {
@@ -56,7 +56,7 @@ export function AdmAddNewPlates() {
                 description,
                 ingredients,
                 price,
-                image // Verifique se a imagem está sendo passada corretamente
+                image
             });
 
             const fileUpload = new FormData();
@@ -76,7 +76,7 @@ export function AdmAddNewPlates() {
 
             try {
             const response = await api.post("plates", fileUpload);
-            console.log('Resposta do backend:', response.data); // Verifique a resposta do backend
+            
         } catch (error) {
             console.error('Erro ao enviar prato:', error); // Registre qualquer erro que ocorra durante a solicitação
         }
