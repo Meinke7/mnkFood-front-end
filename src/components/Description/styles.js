@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    animation: 0.5s screenScale;
+    animation: 0.5s;
     grid-area: Description;
     position: relative;
     display: flex;
-    width: 100%;
+    
     
     height: 260px;
     margin: 300px 125px 0;
@@ -23,7 +23,7 @@ export const Container = styled.div`
         top: 100px;
 
         h1{
-            margin-right: 250px;
+            
             font-weight: 600;
             font-size: 50px;
             
@@ -40,7 +40,7 @@ export const Container = styled.div`
         justify-content: center;
         align-items: center;
 
-        .wrapper_description{
+        .wrapper_description_banner{
             z-index: 1;
             
 
@@ -73,7 +73,7 @@ export const Container = styled.div`
             }
         }
 
-        .wrapper_description{
+        .wrapper_description_banner{
             right: 0px;
             top: 30px;
             

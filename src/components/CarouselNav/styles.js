@@ -60,12 +60,11 @@ export const Container = styled.section`
     #addMargin {
       margin-left: 0;
     }
-  }
-
-  @media (max-width: 1300px) {
-    .back,
-    .forward {
-      width: -5px; /* Largura dos botões de navegação em telas menores */
+  
+    .wrapper_button button {
+      display: none;
     }
   }
+
+
 `;

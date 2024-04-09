@@ -1,6 +1,5 @@
 import logoFoodExplorer from "../../assets/logoFoodExplorer.svg";
 import { AiOutlineMenu } from "react-icons/ai";
-import { GiCrossMark } from "react-icons/gi";
 import { FiSearch } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
 
@@ -88,7 +87,7 @@ export function AdmHeader({ setPlate = () => {}, plate }) {
         <div className="menu hidden">
           {sidebar === true ? (
             <div className="sidebar">
-              <GiCrossMark onClick={showSidebar} />
+              <AiOutlineMenu onClick={showSidebar} />
               <span>Menu</span>
             </div>
           ) : (

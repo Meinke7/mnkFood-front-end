@@ -1,7 +1,6 @@
 import logoFoodExplorer from "../../assets/logoFoodExplorer.svg";
 import lista from "../../assets/piceOfPaper.svg";
 import { AiOutlineMenu } from "react-icons/ai";
-import { GiCrossMark } from "react-icons/gi";
 import { FiSearch } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
 
@@ -102,7 +101,7 @@ export function Header({
         <div className="menu hidden">
           {sidenav === true ? (
             <div className="sidenav">
-              <GiCrossMark onClick={showSideNav} />
+              <AiOutlineMenu onClick={showSideNav} />
               <span>Menu</span>
             </div>
           ) : (

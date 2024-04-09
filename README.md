@@ -1,9 +1,9 @@
-<h1 align="center" style="text-align: center;">
-  
-  
+<h1 align="center" style="text-align: center;" >
+ Online Menu for restaurant 
+
 </h1>
 
-> Online Menu for restaurant
+> Food Explorer
 
 
 

@@ -11,7 +11,7 @@ export function CarouselNav({ children }) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1301 },
-      items: 3.4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 1400, min: 1025 },
@@ -22,7 +22,7 @@ export function CarouselNav({ children }) {
       items: 1,
     },
     mobile: {
-      breakpoint: { max: 768, min: 0 },
+      breakpoint: { max: 900, min: 300 },
       items: 1,
     },
   };
