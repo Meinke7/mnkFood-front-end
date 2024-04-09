@@ -38,6 +38,8 @@ Admin Functionalities:
 - E-mail: admin@email.com
 - Password: 1234
 
+<img alt="" src="/src/assets/adminNewPlate.png" style="vertical-align: middle">
+
 
 Common User Functionalities:
 
@@ -48,11 +50,13 @@ Common User Functionalities:
  -       Choose the payment method (credit or Pix)
  -       Follow de order status
 
+
+
 To access the common user account, you can create your own test account or use this one:
 - E-mail: user1@email.com
 - Password: 1234
 
-
+<img alt="" src="/src/assets/userPayment.png" style="vertical-align: middle">
 
 
 
