@@ -20,7 +20,7 @@ To achieve this, the task was to develop the application with two user personas:
 
 
 
-<img alt="" src="/src/assets/adminHome.png" style="vertical-align: middle">
+<img alt="" src="/src/assets/userHome.png" style="vertical-align: middle">
 
 
 
