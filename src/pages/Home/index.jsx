@@ -1,5 +1,4 @@
 import { CarouselNav } from "../../components/CarouselNav";
-import { FavoritePlates } from "../../components/FavoritePlates";
 import { Description } from "../../components/Description";
 import { AdmHeader } from "../../components/AdmHeader";
 import { Header } from "../../components/Header";
@@ -126,7 +125,7 @@ export function Home() {
         </CarouselNav>
       </main>
 
-      <FavoritePlates />
+      
 
       <Footer />
     </Container>

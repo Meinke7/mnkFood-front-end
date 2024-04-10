@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     position: relative;
 
-    animation: 0.5s screenScale;
+    
     height: 100vh;
 
     >Form{

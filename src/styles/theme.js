@@ -1,4 +1,5 @@
 
+
   
  export default {
     COLORS: {
@@ -8,9 +9,9 @@
       BACKGROUND_INGREDIENT: "#76797B",
       BACKGROUND_INGREDIENT_D: "#192227",
       BACKGROUND_INGREDIENT_D2: "#0D161B",
-      BACKGROUND_LINE: "#3E3B47",
+      BACKGROUND_LINE: "#2a6c87",
       
-    BACKGROUND_DISH: "rgba(0, 0, 0, 0.32)",
+    BACKGROUND_DISH: "rgba(1, 0, 32, 0.90)",
 
     PLACEHOLDER: "#7C7C8A",
 
@@ -18,9 +19,9 @@
     WHITE_500: "#E1E1E6",
     WHITE_100: "#C4C4CC",
 
-    RED_1000: "#750310",
+    RED_1000: "#790a17",
     RED_900: "#92000E",
     RED_500: "#AB4D55",
-    PRICE_$: "#82F3FF", 
+    PRICE: "#82F3FF", 
     
     }}

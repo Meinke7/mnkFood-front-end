@@ -83,7 +83,7 @@ export function SignUp() {
         <label>
           Senha
           <Input
-            placeholder="No mínimo 4 carácteres"
+            placeholder="No mínimo 4 caracteres"
             type="password"
             maxLength="10"
             onChange={(e) => setPassword(e.target.value)}

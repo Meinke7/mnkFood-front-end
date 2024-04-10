@@ -5,7 +5,7 @@ export const Container = styled.div`
 
     height: 100vh;
 
-    animation: 0.5s screenScale;
+    animation: 0.75s;
 
     >Form{
         padding: 150px 120px;

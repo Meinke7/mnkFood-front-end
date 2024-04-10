@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    animation: 0.5s;
     grid-area: Description;
     position: relative;
+    animation: 0.7s;
     display: flex;
     
     

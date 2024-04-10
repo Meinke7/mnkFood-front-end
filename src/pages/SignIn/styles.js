@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
 
-  animation: 0.5s screenScale;
+  animation: 0.75s screenScale;
 
   .wrapper_logo {
     width: 100%;

@@ -26,11 +26,11 @@ export default createGlobalStyle`
 
     button, a {
         cursor: pointer;
-        transition: filter 0.2s;
+        transition: filter 0.35s;
     }
 
     button:hover, a:hover {
-        filter: brightness(0.9);
+        filter: brightness(0.8);
     }
 
     .hidden, #hidden{
@@ -47,7 +47,7 @@ export default createGlobalStyle`
 
     @keyframes screenScale{
         0%{
-            transform: scale(0.6); 
+            transform: scale(0.7); 
             opacity: 0;
         }
         100%{

@@ -33,13 +33,11 @@ export const Container = styled.div`
     }
 
     svg {
-      font-size: 35px;
+      font-size: 29px;
       color: ${({ theme }) => theme.COLORS.RED_900};
     }
 
-    #fillHeart {
-      animation: 0s screenScaleHeart;
-    }
+
 
     @media (max-width: 800px) {
       svg {
@@ -60,7 +58,7 @@ export const Container = styled.div`
     max-width: 304px;
     height: 530px;
 
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.69);
 
     .wrapper_img {
       border-radius: 50%;
@@ -91,7 +89,7 @@ export const Container = styled.div`
 
     .wrapper_description {
       margin-top: 20px;
-      font-family: "Roboto", serif;
+      font-family: "Roboto", sans-serif;
       text-align: center;
       justify-content: center;
       font-weight: 400;
@@ -113,7 +111,7 @@ export const Container = styled.div`
 
         font-weight: 400;
         font-size: 32px;
-        color: ${({ theme }) => theme.COLORS.PRICE_$};
+        color: ${({ theme }) => theme.COLORS.PRICE};
       }
     }
   }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    animation: 0.5s screenScale;
+    animation: 0.75s;
     height: 100vh;
 
     h1{

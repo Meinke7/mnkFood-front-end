@@ -47,6 +47,9 @@ export const Container = styled.div`
 
     .wrapper_input{
         width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .wrapper_favorites_historic{
