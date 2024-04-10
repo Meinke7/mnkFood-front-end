@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding: 0 100px;
-
+ 
   cursor: grab;
 
   #hidden {
@@ -11,12 +11,14 @@ export const Container = styled.section`
 
   .wrapper_plates {
     position: relative;
+    
 
     .wrapper_button {
       display: flex;
       align-items: center;
       justify-content: center;
-
+      
+      
       position: absolute;
       top: 0;
       height: 100%;
@@ -61,9 +63,9 @@ export const Container = styled.section`
       margin-left: 0;
     }
   
-    .wrapper_button button {
-      display: none;
-    }
+    padding: 0;
+
+  
   }
 
 

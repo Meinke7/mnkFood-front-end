@@ -123,7 +123,7 @@ export const Container = styled.div`
     bottom: 46px;
     right: 45px;
     left: 45px;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,16 +159,22 @@ export const Container = styled.div`
   // MOBILE
 
   .wrapper_plate_mobile {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+   
 
-    max-height: 290px;
-    max-width: 210px;
 
     a {
       gap: 10px;
-
+      
+      width: 100%;
+      height: 100%;
+     
+      
+      
       .wrapper_img {
         margin: 10px;
 
@@ -185,8 +191,7 @@ export const Container = styled.div`
         line-height: 1;
         height: 22px;
 
-        svg,
-        h1 {
+        svg, h1 {
           font-size: 15px;
         }
       }
@@ -234,7 +239,7 @@ export const Container = styled.div`
       width: 90%;
 
       padding: 0;
-      margin: 0;
+      
 
       border: none;
     }

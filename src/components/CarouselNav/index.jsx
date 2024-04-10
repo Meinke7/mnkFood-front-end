@@ -22,7 +22,7 @@ export function CarouselNav({ children }) {
       items: 1,
     },
     mobile: {
-      breakpoint: { max: 900, min: 300 },
+      breakpoint: { max: 900, min: 100 },
       items: 1,
     },
   };
