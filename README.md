@@ -34,10 +34,7 @@ Admin Functionalities:
  -       View the favorites dishes selected by common users
  -       Set the status of each order: delivered, preparing, pending..
 
-  To access the Admin account:
-- E-mail: admin@email.com
-- Password: 1234
-
+ 
 <img alt="" src="/src/assets/adminNewPlate.png" style="vertical-align: middle">
 
 
@@ -52,9 +49,7 @@ Common User Functionalities:
 
 
 
-To access the common user account, you can create your own test account or use this one:
-- E-mail: user1@email.com
-- Password: 1234
+
 
 <img alt="" src="/src/assets/userPayment.png" style="vertical-align: middle">
 
@@ -81,8 +76,16 @@ This project was developed using:
 
 This application can be tested online [on this link](https://netlify.app/).
 
+ To access the Admin account:
+- E-mail: admin@email.com
+- Password: 1234
+
+To access the common user account, you can create your own test account or use this one:
+- E-mail: user1@email.com
+- Password: 1234
+
 To run on your local computer, you will have to clone this project and also the 
-back-end api [on this link](https://github.com/)
+back-end api [on this link](https://github.com/Meinke7/mnkFood-Back-end-BACKUP)
 
 make sure that ``Node.js`` and ``npm`` are both installed on your device. 
 
