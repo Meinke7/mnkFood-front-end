@@ -42,28 +42,10 @@ export const Container = styled.div`
   }
 
   @media (max-height: 800px) {
-    height: 50px;
-    padding: 0;
-
-    > img {
-      width: 114px;
-      height: 18px;
-    }
-
-    > span {
-      min-width: 230px;
-      font-size: 11px;
-    }
+    display: none;
   }
-
   @media (max-width: 300px) {
-    > img {
-      height: 15px;
-    }
-
-    > span {
-      min-width: 180px;
-      font-size: 9px;
-    }
+    display: none;
+   
   }
 `;
