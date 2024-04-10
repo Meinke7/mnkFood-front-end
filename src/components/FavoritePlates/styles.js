@@ -50,10 +50,12 @@ export const Container = styled.div`
         .wrapper_title_like {
           display: flex;
           gap: 5px;
+          
 
           img {
             height: 70px;
             width: 70px;
+            border-radius: 50%;
           }
 
           h2 {
